@@ -1,0 +1,10 @@
+#include "cl_2.h"
+
+cl_2::cl_2()
+{
+	set_state(1);
+}
+
+void cl_2::show_object(string input) {
+	cout << "Object name: " << get_object(input)->get_object_name();
+}
